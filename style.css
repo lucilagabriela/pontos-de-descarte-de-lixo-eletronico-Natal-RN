@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+/* Importação das Fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* Identidade visual:
+    Texto Principal #212121
+    Texto Verde #4CAF50
+    Texto Problema #75778B
+    Background color inicio #333333
+    Background color problema #F5F5F5
+*/
+
+* { /* reset css: apaga as configurações pré-definidas do navegador */
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-header {
+    color: #4CAF50;
+}
+
+#space {
+    color: #374151;
+}
+
+#inicio {
+    padding-top: 10px;
+}
+
+header {
+    display: flex; /* quando coloca o display flex, ele automaticamente bota flex-direction row */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 24px;
+    margin-bottom: 14px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-links {
+    display: flex;
+    gap: 20px;
+    color: #212121;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#inicio {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+}
+.text-inicio {
+    padding: 100px;
+}
+
+.text1-inicio {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.text2-inicio {
+    font-size: 20px;
+}
+
+#button {
+    margin: 50px;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 300px;
+    transition: all .2s ease-in-out;
+    border: none;
+}
+
+#formulario-contato {
+    height: 30px;
+    width: 300px;
+}
+
+#button:hover {
+    background-color: #307433;
+}
+
+#problema {
+    background-color: #F5F5F5;
+    padding: 70px;
+    text-align: center;
+}
+
+.text1-problema {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.paragrafo-clouds {
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.comp-clouds {
+    font-size: 18px;
+    color: #75778B;
+}
+
+.text1-clouds {
+    padding: 30px;
+    margin: auto;
+    background-color: #fff;
+    min-width: 70px;
+    max-width: 585px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.text2-clouds {
+    padding: 30px;
+    margin: auto;
+    background-color: #fff;
+    min-width: 70px;
+    max-width: 585px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.text3-clouds {
+    padding: 30px;
+    margin: auto;
+    background-color: #fff;
+    min-width: 70px;
+    max-width: 585px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#como-ajudar {
+    background-color: #F5F5F5;
+    padding: 70px;;
+}
+
+.texto-principal-ajudar{
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: center
+}
+
+.two-clouds-ajudar {
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-help {
+    color: #4CAF50;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#button2 {
+    margin: 50px;
+    color: #fff;
+    background-color: #2196F3;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 300px;
+    transition: all .2s ease-in-out;
+    border: none;
+}
+
+#button2:hover {
+    background-color: #1b75be;
+}
+
+.lista1 li,
+.lista2 li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #75778B;
+}
+
+.div-lista1 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.div-lista2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+#formulario-contato {
+    padding: 70px;
+    text-align: center;
+}

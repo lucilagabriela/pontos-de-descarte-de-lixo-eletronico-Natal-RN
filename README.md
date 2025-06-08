@@ -1,1 +1,1 @@
-# pontos-de-descarte-de-lixo-eletronico-Natal-RN
+# descarte-lixo-eletronico-Natal-RN
