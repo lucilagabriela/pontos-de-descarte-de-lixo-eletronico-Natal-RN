@@ -215,11 +215,7 @@ header {
     color: #75778B;
 }
 
-.div-lista1 {
-    flex: 1;
-    min-width: 300px;
-}
-
+.div-lista1,
 .div-lista2 {
     flex: 1;
     min-width: 300px;
