@@ -53,13 +53,17 @@ header {
     height: 50px;
 }
 
+.cabecalho h2 {
+    font-size: 22px;
+}
+
 .cabecalho-links {
     display: flex;
     gap: 20px;
     color: #212121;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #inicio {
@@ -103,7 +107,8 @@ header {
     background-color: #307433;
 }
 
-#problema {
+#problema,
+#reparo {
     background-color: #F5F5F5;
     padding: 70px;
     text-align: center;
@@ -162,6 +167,21 @@ header {
     border-bottom-right-radius: 10px;
 }
 
+#pontos-coleta {
+    background-color: #F5F5F5;
+    padding: 70px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.clouds-coleta {
+    font-size: 18px;;
+}
+
+.text-pontos-coleta {
+    margin-bottom: 40px;
+}
+
 
 #como-ajudar {
     background-color: #F5F5F5;
@@ -181,6 +201,10 @@ header {
     align-items: flex-start;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+#text-header {
+    color: #4CAF50;
 }
 
 .text-help {
@@ -221,7 +245,134 @@ header {
     min-width: 300px;
 }
 
-#formulario-contato {
+.formulario {
+    background-color: #F5F5F5;
     padding: 70px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #575757;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.formulario-titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    margin-top: 5px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    padding-left: 4px;
+    border: 3px solid #ddd;
+    color: rgb(189, 149, 207);
+    box-sizing: border-box;
+}
+
+#message {
+    min-height: 150px;  /* Define a altura MÍNIMA. A caixa já começará maior. */
+    resize: vertical;   /* Permite que o usuário AUMENTE A ALTURA arrastando o canto. */
+    height: auto;       /* Remove qualquer altura fixa que possa estar em conflito. */
+}
+
+/* --- Estilos para o Footer Acadêmico --- */
+.footer-academico {
+    background-color: #f8f9fa; /* Fundo branco/cinza muito claro */
+    color: #495057; /* Texto cinza escuro */
+    padding: 50px 20px 20px 20px;
+    border-top: 3px solid #5757572c; /* Cor institucional da faculdade (ex: azul) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-academico .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite a quebra de linha em telas menores */
+    gap: 30px; /* Espaço entre as colunas */
+}
+
+.footer-academico .footer-coluna {
+    flex: 1; /* Faz com que as colunas tentem ocupar o mesmo espaço */
+    min-width: 250px; /* Largura mínima antes de quebrar a linha */
+}
+
+.footer-academico h4 {
+    font-size: 1.1rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Linha decorativa abaixo dos títulos */
+.footer-academico h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 40px;
+    height: 2px;
+    background-color: #575757;
+}
+
+.footer-academico p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-academico ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-academico ul li a {
+    text-decoration: none;
+    color: #495057;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.footer-academico ul li a:hover {
+    color: #575757;
+}
+
+.footer-academico .footer-coluna p a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.footer-academico .footer-coluna p a:hover {
+    text-decoration: underline;
+}
+
+.footer-academico .apoio-titulo {
+    margin-top: 25px;
+}
+
+.footer-academico .logo-apoio {
+    max-width: 150px; /* Ajuste o tamanho do logo conforme necessário */
+    height: auto;
+}
+
+.footer-academico .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6; /* Linha separadora suave */
+    font-size: 0.85rem;
+    color: #6c757d;
 }
