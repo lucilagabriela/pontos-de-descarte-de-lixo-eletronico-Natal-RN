@@ -289,7 +289,7 @@ header {
 
 /* --- Estilos para o Footer Acadêmico --- */
 .footer-academico {
-    background-color: #f8f9fa; /* Fundo branco/cinza muito claro */
+    background-color: #F5F5F5; /* Fundo branco/cinza muito claro */
     color: #495057; /* Texto cinza escuro */
     padding: 50px 20px 20px 20px;
     border-top: 3px solid #5757572c; /* Cor institucional da faculdade (ex: azul) */
@@ -302,12 +302,17 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; /* Permite a quebra de linha em telas menores */
-    gap: 30px; /* Espaço entre as colunas */
+    gap: 80px; /* Espaço entre as colunas */
 }
 
 .footer-academico .footer-coluna {
     flex: 1; /* Faz com que as colunas tentem ocupar o mesmo espaço */
     min-width: 250px; /* Largura mínima antes de quebrar a linha */
+    font-size: 15px;
+}
+
+#coluna-contato {
+    font-weight: bold;
 }
 
 .footer-academico h4 {
@@ -329,7 +334,7 @@ header {
 }
 
 .footer-academico p {
-    font-size: 0.9rem;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -358,16 +363,11 @@ header {
 .footer-academico .footer-coluna p a:hover {
     text-decoration: underline;
 }
-
+/*
 .footer-academico .apoio-titulo {
     margin-top: 25px;
 }
-
-.footer-academico .logo-apoio {
-    max-width: 150px; /* Ajuste o tamanho do logo conforme necessário */
-    height: auto;
-}
-
+*/
 .footer-academico .footer-bottom {
     text-align: center;
     margin-top: 40px;
@@ -375,4 +375,22 @@ header {
     border-top: 1px solid #dee2e6; /* Linha separadora suave */
     font-size: 0.85rem;
     color: #6c757d;
+}
+
+.logo-apoio {
+    width: 40px;
+    max-width: 100%;
+}
+
+.icon-linkedin {
+    width: 15px;
+    max-width: 100%;
+}
+
+.nome-apoio {
+    font-size: 15px;
+}
+
+#footer-coluna1 {
+    padding-right: 35px;
 }
